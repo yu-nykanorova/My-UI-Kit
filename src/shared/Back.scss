@@ -1,0 +1,11 @@
+.back-container {
+    text-align: left;
+    .back-title {
+        color: var(--c-text-second);
+        padding: 10rem;
+        transition: var(--transition);
+        &:hover {
+            color: var(--c-text-main);
+        }
+    }
+}

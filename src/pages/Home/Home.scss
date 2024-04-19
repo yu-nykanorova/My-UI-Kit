@@ -1,0 +1,40 @@
+.home-container {
+    padding: 50rem;
+    text-align: center;
+
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20rem;
+        margin-inline: auto;
+
+        .link-item {
+            padding: 20rem;
+            font-size: 32rem;
+            border-radius: 30rem;
+            color: var(--c-text-main);
+            transition: var(--transition);
+
+            &:hover {
+                transform: scale(1.03);
+                box-shadow: 0 0 10rem 0 var(--c-grey-3);
+            }
+        }
+
+        .to-buttons-page {
+            background-color: var(--c-purple-light);
+            border: 2rem solid var(--c-blue);
+            color: var(--c-blue);
+        }
+        .to-tabs-page {
+            background-color: var(--c-grey-2);
+            border: 2rem solid var(--c-grey-4);
+            color: var(--c-grey-4);
+        }
+        .to-forms-page {
+            background-color: var(--c-pink-light);
+            border: 2rem solid var(--c-pink);
+            color: var(--c-pink);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.forms-container {
+    padding: 10rem;
+    text-align: center;
+
+    .toggle-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+    }
+
+    .radio-buttons {
+        display: flex;
+        align-items: flex-start;
+    }
+}
